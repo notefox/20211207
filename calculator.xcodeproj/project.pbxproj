@@ -19,8 +19,6 @@
 		0F467089273D3084006E16D9 /* RomanNumeralsToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F467088273D3084006E16D9 /* RomanNumeralsToInt.swift */; };
 		0F46708B273D3615006E16D9 /* RomanNumeralsToIntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F46708A273D3615006E16D9 /* RomanNumeralsToIntTest.swift */; };
 		14800BAC275FBE7800D6F660 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14800BAB275FBE7800D6F660 /* BackgroundImage.swift */; };
-		14800BB1275FC01700D6F660 /* InputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14800BB0275FC01600D6F660 /* InputFields.swift */; };
-		14800BB6275FC05B00D6F660 /* CalculationButtonExec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14800BB5275FC05B00D6F660 /* CalculationButtonExec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +54,6 @@
 		0F467088273D3084006E16D9 /* RomanNumeralsToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsToInt.swift; sourceTree = "<group>"; };
 		0F46708A273D3615006E16D9 /* RomanNumeralsToIntTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsToIntTest.swift; sourceTree = "<group>"; };
 		14800BAB275FBE7800D6F660 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
-		14800BB0275FC01600D6F660 /* InputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields.swift; sourceTree = "<group>"; };
-		14800BB5275FC05B00D6F660 /* CalculationButtonExec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationButtonExec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +104,6 @@
 		0F467059273D28AF006E16D9 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				14800BB5275FC05B00D6F660 /* CalculationButtonExec.swift */,
 				0F46705A273D28AF006E16D9 /* calculatorApp.swift */,
 				0F46705C273D28AF006E16D9 /* ContentView.swift */,
 				0F46705E273D28AF006E16D9 /* Assets.xcassets */,
@@ -116,7 +111,6 @@
 				0F467084273D2A6A006E16D9 /* IntToRomanNumeral.swift */,
 				0F467088273D3084006E16D9 /* RomanNumeralsToInt.swift */,
 				14800BAB275FBE7800D6F660 /* BackgroundImage.swift */,
-				14800BB0275FC01600D6F660 /* InputFields.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -280,10 +274,8 @@
 				0F467085273D2A6A006E16D9 /* IntToRomanNumeral.swift in Sources */,
 				0F467089273D3084006E16D9 /* RomanNumeralsToInt.swift in Sources */,
 				0F46705D273D28AF006E16D9 /* ContentView.swift in Sources */,
-				14800BB1275FC01700D6F660 /* InputFields.swift in Sources */,
 				14800BAC275FBE7800D6F660 /* BackgroundImage.swift in Sources */,
 				0F46705B273D28AF006E16D9 /* calculatorApp.swift in Sources */,
-				14800BB6275FC05B00D6F660 /* CalculationButtonExec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
