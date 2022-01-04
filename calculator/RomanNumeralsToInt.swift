@@ -13,7 +13,7 @@
      ("I", 1)
  ]
 
- let romanNumeralsRegex = " ^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$"
+ let romanNumeralsRegex = "^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$"
 
  public extension String {
 
